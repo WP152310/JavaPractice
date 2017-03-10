@@ -32,6 +32,12 @@ public class TypeCasting {
 			b = (byte)i;
 			System.out.println(b);
 			System.out.println(i);
+			
+			//수의 범위에 주의
+			i = 128;
+			b=(byte)i;
+			System.out.println(b);
+			System.out.println(i);
 	}
 
 }
