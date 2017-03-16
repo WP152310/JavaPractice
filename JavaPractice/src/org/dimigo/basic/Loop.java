@@ -49,7 +49,7 @@ public class Loop {
 				System.out.printf("공격력이 감소되었습니다. 현재 공격력 : %d\n", attack);
 				break;
 			case 3:
-				System.out.printf("%s(으)로 설정되었습니다.\n", classList[new Random().nextInt(4)]);
+				System.out.printf("%s(으)로 설정되었습니다.\n", classList[new Random().nextInt(classList.length)]);
 				break;
 			default:
 			}
