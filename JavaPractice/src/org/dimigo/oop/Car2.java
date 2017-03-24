@@ -13,13 +13,26 @@ package org.dimigo.oop;
  * @author		: freiy
  * @version		: 1.0
  */
-public class Car {
+public class Car2 {
 	private String company;
 	private String model;
 	private String color;
 	private int maxSpeed;
 	private int price;
 	
+	public Car2()
+	{
+		
+	}
+	
+	public Car2(String company, String model, String color, int maxSpeed, int price)
+	{
+		setCompany(company);
+		setModel(model);
+		setColor(color);
+		setMaxSpeed(maxSpeed);
+		setPrice(price);
+	}
 	
 	public String getCompany()
 	{
