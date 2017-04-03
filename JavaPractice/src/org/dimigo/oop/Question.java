@@ -26,7 +26,7 @@ public class Question {
 		String[] questions = { "가장 좋아하는 프로그래밍 언어는? ", "가장 좋아하는 운영체제는? ", "가장 좋아하는 회사는? " };
 		StringBuilder[] prints = new StringBuilder[questions.length];
 		for(int i=0;i<questions.length;i++){
-			prints[i].append(questions[i]);
+			prints[i] = new StringBuilder(questions[i]);
 		}
 		String[] answers = { "C++", "Windows 10", "Microsoft" };
 		String buff;
