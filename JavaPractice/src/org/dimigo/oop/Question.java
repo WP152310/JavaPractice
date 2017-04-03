@@ -24,8 +24,10 @@ public class Question {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] questions = { "가장 좋아하는 프로그래밍 언어는? ", "가장 좋아하는 운영체제는? ", "가장 좋아하는 회사는? " };
-		StringBuilder[] prints = { new StringBuilder(questions[0]), new StringBuilder(questions[1]),
-				new StringBuilder(questions[2]) };
+		StringBuilder[] prints = new StringBuilder[questions.length];
+		for(int i=0;i<questions.length;i++){
+			prints[i].append(questions[i]);
+		}
 		String[] answers = { "C++", "Windows 10", "Microsoft" };
 		String buff;
 		Scanner scan = new Scanner(System.in);
