@@ -26,7 +26,7 @@ public class SnackTest {
 		int sum = 0;
 		for (Snack i : snacks) {
 			System.out.println(i);
-			sum += i.getPrice() * i.getNumber();
+			sum += i.calcPrice();
 		}
 		System.out.println("총 구매 금액 : " + String.format("%,d원", sum));
 	}

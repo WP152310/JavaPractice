@@ -38,7 +38,10 @@ public class Snack {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	@Override
+	public int calcPrice(){  
+		return this.number*this.price;
+	}
+	
 	public String toString() {
 		return "이름 : "+name+"\n제조사 : " + company + "\n가격 : " + String.format("%,d", price) + "원\n개수 : " + number + "개\n";
 	}
