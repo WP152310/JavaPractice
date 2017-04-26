@@ -1,4 +1,9 @@
 eclipse.preferences.version=1
+encoding//src/inheritance/Chinese.java=UTF-8
+encoding//src/inheritance/Japanese.java=UTF-8
+encoding//src/inheritance/Korean.java=UTF-8
+encoding//src/inheritance/Person.java=UTF-8
+encoding//src/inheritance/PersonTest.java=UTF-8
 encoding//src/org/dimigo/basic/Condition.java=UTF-8
 encoding//src/org/dimigo/basic/Loop.java=UTF-8
 encoding//src/org/dimigo/basic/Operator.java=UTF-8
