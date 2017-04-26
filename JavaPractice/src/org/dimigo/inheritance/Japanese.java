@@ -1,4 +1,4 @@
-package inheritance;
+package org.dimigo.inheritance;
 
 public class Japanese extends Person {
 
