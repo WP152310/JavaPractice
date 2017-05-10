@@ -26,5 +26,6 @@ public class PersonTest {
 		hong.sayBye();
 		tanaka.sayBye();
 		wang.sayBye();
+		
 	}
 }
