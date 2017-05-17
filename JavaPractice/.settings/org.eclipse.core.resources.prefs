@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/org/dimigo/abstractclass/Galaxy.java=UTF-8
+encoding//src/org/dimigo/abstractclass/IPhone.java=UTF-8
+encoding//src/org/dimigo/abstractclass/SmartPhone.java=UTF-8
+encoding//src/org/dimigo/abstractclass/SmartPhoneTest.java=UTF-8
 encoding//src/org/dimigo/basic/Condition.java=UTF-8
 encoding//src/org/dimigo/basic/Loop.java=UTF-8
 encoding//src/org/dimigo/basic/Operator.java=UTF-8
