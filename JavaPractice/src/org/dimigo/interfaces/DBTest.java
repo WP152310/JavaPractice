@@ -10,7 +10,7 @@ public class DBTest {
 			crud(db);
 		System.out.println();
 		System.out.println("<< 변경 후 >>");
-		db = IDBManager.getDBObject("SYBASE");
+		db = IDBManager.getDBObject("ORACLE");
 		if (db != null)
 			crud(db);
 	}
