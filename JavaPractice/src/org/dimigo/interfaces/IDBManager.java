@@ -14,4 +14,5 @@ public interface IDBManager {
 			return new SybaseDB();
 		else return null;
 	}
+	
 }
