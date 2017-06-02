@@ -24,7 +24,7 @@ public abstract class SmartPhone {
 	}
 
 	public abstract void pay();
-	
+
 	public void useSpecialFunction(SmartPhone phone) {
 		if (phone == null)
 			return;

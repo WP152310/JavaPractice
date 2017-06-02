@@ -21,6 +21,5 @@ public class DBTest {
 		db.update();
 		db.delete();
 	}
-	
 
 }
