@@ -31,8 +31,7 @@ public class MelonChart {
 	}
 
 	public static void printList(List<Music> list) {
-		int l = list.size();
-		for (int i = 0; i < l; i++) {
+		for (int i = 0, l = list.size(); i < l; i++) {
 			System.out.print(i + 1);
 			System.out.println(". " + list.get(i));
 		}
