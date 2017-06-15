@@ -32,21 +32,17 @@ public class MelonGenreChart {
 		System.out.println("--<<전체 리스트 삭제>>--");
 		printMap(map);
 	}
-/*
+
+	/*
+	 * public static void printMap(Map<String, List<Music>> map) { for
+	 * (Map.Entry<String, List<Music>> entry : map.entrySet()) {
+	 * System.out.printf("[%s]\n", entry.getKey()); List<Music> list =
+	 * entry.getValue(); for (int i = 0, l = list.size(); i < l; i++) {
+	 * System.out.print(i + 1); System.out.println(". " + list.get(i)); } }
+	 * System.out.println(); }
+	 */
 	public static void printMap(Map<String, List<Music>> map) {
-		for (Map.Entry<String, List<Music>> entry : map.entrySet()) {
-			System.out.printf("[%s]\n", entry.getKey());
-			List<Music> list = entry.getValue();
-			for (int i = 0, l = list.size(); i < l; i++) {
-				System.out.print(i + 1);
-				System.out.println(". " + list.get(i));
-			}
-		}
-		System.out.println();
-	}
-*/
-	public static void printMap(Map<String, List<Music>> map) {
-		map.forEach((str, list)->{
+		map.forEach((str, list) -> {
 			System.out.printf("[%s]\n", str);
 			for (int i = 0, l = list.size(); i < l; i++) {
 				System.out.print(i + 1);

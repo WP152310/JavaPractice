@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//files/menu.txt=UTF-8
 encoding//src/org/dimigo/abstractclass/Galaxy.java=UTF-8
 encoding//src/org/dimigo/abstractclass/IPhone.java=UTF-8
 encoding//src/org/dimigo/abstractclass/SmartPhone.java=UTF-8
@@ -24,6 +25,7 @@ encoding//src/org/dimigo/inheritance/SmartPhoneTest.java=UTF-8
 encoding//src/org/dimigo/interfaces/DBTest.java=UTF-8
 encoding//src/org/dimigo/interfaces/OracleDB.java=UTF-8
 encoding//src/org/dimigo/interfaces/SybaseDB.java=UTF-8
+encoding//src/org/dimigo/io/ArakoMenu.java=UTF-8
 encoding//src/org/dimigo/oop/CarTest.java=UTF-8
 encoding//src/org/dimigo/oop/CarTest2.java=UTF-8
 encoding//src/org/dimigo/oop/CarTest3.java=UTF-8
